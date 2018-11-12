@@ -1,6 +1,7 @@
 version: '3'
 services:
   web:
+    image: agenatrader/fixer
     build:
       context: ./app
     environment:
